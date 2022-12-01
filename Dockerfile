@@ -40,5 +40,5 @@ RUN conda install mamba -n base -c conda-forge
 
 RUN bash install.sh
 
-RUN condda tall -c conda-forge libiconv compress_pickle imgaug opencv-python-headless facenet_pytorch wandb munch
-RUN pip install omegaconf adabound pytorch_lightning
+RUN conda install -c conda-forge libiconv
+RUN pip install omegaconf adabound pytorch_lightning compress_pickle imgaug opencv-python-headless facenet_pytorch wandb munch
